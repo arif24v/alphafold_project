@@ -1,0 +1,14 @@
+USE THIS COMMAND TO SIMULATE WITH AUTODOCK FROM THE COMMAND LINE:
+
+/Users/arifv/Desktop/GitHub/alphafold_project/vina --config [CONFIG.CONF] --log[OUTPUT.TXT]
+
+CONF FILE SHOULD BE OF THE FORMAT:
+receptor = [receptor].pdbqt
+ligand = [ligand].pdbqt
+center_x = 8.08
+center_y = -4.85
+center_z = -3.92
+size_x = 48.44
+size_y = 47.68
+size_z = 40.62
+
