@@ -24,6 +24,8 @@ Drug Analysis: proteins.plus
 	DoGSite3
 	PoseEdit
 
+Drug Similarity: zinc.docking.org
+
 Goals: 
 
 Modify hCAR1 (348 aa) minimally to increase binding affinity for TCPOBOP
