@@ -12,6 +12,6 @@ foreach my $file (@arr_file) {
     chomp $file;
     print "$file\n";
     my @name = split(/\./, $file);
-    my $log_file = $file . "_log.log";
-    system("\"C:\\Program Files (x86)\\The Scripps Research Institute\\Vina\\vina.exe\" --config conf_vs.txt --ligand \"$file\" --log \"$log_file\"");
+    my $log_file = $file . "_log3.log";
+    system("\"C:\\Program Files (x86)\\The Scripps Research Institute\\Vina\\vina.exe\" --config conf_vs_3.txt --ligand \"$file\" --log \"$log_file\"");
 }
