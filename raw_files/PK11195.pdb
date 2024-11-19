@@ -1,0 +1,51 @@
+HETATM    1  C1  PKA B 201      40.628  47.630  12.373  1.00 76.07           C
+HETATM    2  C2  PKA B 201      39.783  47.824  13.697  1.00 83.24           C
+HETATM    3  C3  PKA B 201      38.375  47.295  13.465  1.00 78.77           C
+HETATM    4  C4  PKA B 201      38.376  45.755  13.567  1.00 76.24           C
+HETATM    5  N5  PKA B 201      37.440  47.826  14.399  1.00 82.31           N
+HETATM    6  C6  PKA B 201      37.818  48.448  15.655  1.00 93.70           C
+HETATM    7  C7  PKA B 201      36.034  47.754  14.095  1.00 74.19           C
+HETATM    8  O8  PKA B 201      35.220  48.196  14.881  1.00 70.84           O
+HETATM    9  C9  PKA B 201      35.537  47.100  12.794  1.00 75.26           C
+HETATM   10  N18 PKA B 201      35.417  45.823  12.285  1.00 72.95           N
+HETATM   11  C17 PKA B 201      34.900  45.628  11.034  1.00 76.87           C
+HETATM   12  C10 PKA B 201      35.121  48.202  12.034  1.00 76.36           C
+HETATM   13  C11 PKA B 201      34.584  48.003  10.750  1.00 71.78           C
+HETATM   14  C12 PKA B 201      34.160  49.118   9.977  1.00 73.87           C
+HETATM   15  C16 PKA B 201      34.467  46.740  10.247  1.00 72.84           C
+HETATM   16  C13 PKA B 201      33.629  48.916   8.705  1.00 83.48           C
+HETATM   17  C14 PKA B 201      33.512  47.619   8.192  1.00 67.07           C
+HETATM   18  C15 PKA B 201      33.922  46.532   8.941  1.00 60.63           C
+HETATM   19  C19 PKA B 201      34.932  44.099  10.842  1.00 66.47           C
+HETATM   20  C24 PKA B 201      33.735  43.400  10.800  1.00 71.43           C
+HETATM   21  C23 PKA B 201      33.743  42.025  10.640  1.00 84.10           C
+HETATM   22  C20 PKA B 201      36.133  43.431  10.742  1.00 69.33           C
+HETATM   23  C21 PKA B 201      36.141  42.050  10.581  1.00 96.66           C
+HETATM   24  C22 PKA B 201      34.934  41.349  10.530  1.00101.41           C
+HETATM   25 CL   PKA B 201      32.231  44.249  10.934  1.00 90.67          Cl
+CONECT    1    2
+CONECT   12    9   13
+CONECT   13   12   14   15
+CONECT   14   16   13
+CONECT   16   17   14
+CONECT   17   18   16
+CONECT   18   17   15
+CONECT   15   11   18   13
+CONECT   11   10   15   19
+CONECT   19   11   22   20
+CONECT    2    3    1
+CONECT   22   19   23
+CONECT   23   22   24
+CONECT   24   21   23
+CONECT   21   20   24
+CONECT   20   21   25   19
+CONECT    3    2    5    4
+CONECT    4    3
+CONECT    6    5
+CONECT    7    8    5    9
+CONECT    9    7   12   10
+CONECT   25   20
+CONECT   10   11    9
+CONECT    5    6    7    3
+CONECT    8    7
+END
