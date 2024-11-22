@@ -1,8 +1,8 @@
 import os
 
 # Define the directory containing the log files
-log_dir = "mass_docking"
-output_file = "filtered_log_files.txt"
+log_dir = "../library_docking/mass_docking_babel"
+output_file = "library_log_files.txt"
 
 # Function to check if a file contains an affinity <= -5.6
 def check_affinity(file_path):
@@ -15,7 +15,7 @@ def check_affinity(file_path):
             if bool:
                 try:
                     affinity = float(line.split()[1])
-                    if affinity <= -5.6:
+                    if affinity <= -16.0:
                         affinities.append(affinity)
                         return True
                 except: 
