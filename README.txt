@@ -1,3 +1,5 @@
+C:\Users\arif2\anaconda3\python.exe
+
 USE THIS COMMAND TO SIMULATE WITH AUTODOCK FROM THE COMMAND LINE:
 
 /Users/arifv/Desktop/GitHub/alphafold_project/vina --config [CONFIG.CONF] --log[OUTPUT.TXT]
