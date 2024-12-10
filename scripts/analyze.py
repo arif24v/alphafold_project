@@ -1,8 +1,8 @@
 import os
 
 # Define the directory containing the log files
-log_dir = "../library_docking/mass_docking_babel"
-output_file = "library_log_files.txt"
+log_dir = "../library_docking/mass_docking_3d"
+output_file = "top_local_search.txt"
 
 # Function to check if a file contains an affinity <= -5.6
 def check_affinity(file_path):
@@ -15,7 +15,7 @@ def check_affinity(file_path):
             if bool:
                 try:
                     affinity = float(line.split()[1])
-                    if affinity <= -16.0:
+                    if affinity <= -6.7:
                         affinities.append(affinity)
                         return True
                 except: 
@@ -29,7 +29,7 @@ affinities = []
 
 # Iterate through all the files in the directory
 for file_name in os.listdir(log_dir):    
-    if file_name.endswith(('_log.log', '_log1.log', '_log2.log')):
+    if file_name.endswith(('_log.log')): #if file_name.endswith(('_log.log', '_log1.log', '_log2.log')):
         file_path = os.path.join(log_dir, file_name)
         if check_affinity(file_path):
             filtered_files.append(file_name)
